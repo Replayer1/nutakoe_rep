@@ -26,10 +26,11 @@ ul {
 }
 
 
-header .container {
+header .container-heander {
    margin: 0px auto;
    padding: 0px 10px;
 }
+
 .header__body {
    position: relative;
    color: black;
@@ -45,7 +46,9 @@ header .container {
    z-index: 5;
 } 
 
-
+.header__logo:hover   {
+   color: black;
+} 
 
 .header__burger {
    display: none;
@@ -195,6 +198,42 @@ header .container {
 .content__text p{
    margin-bottom: 30px;
 }
+
+
+.busket-header {
+}
+.bi {
+}
+.bi-basket {
+}
+
+.busket-header {
+   border-radius: 10px;
+   border: rgb(0, 0, 0) 1px solid;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   transition: .3s ease-in-out;
+}
+
+.busket-header:hover {
+   background: rgb(0, 0, 0);
+   border-radius: 10px;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+}
+
+.busket-header:active {
+   transform: scale(1.2);
+}
+
 
 
 

@@ -172,7 +172,7 @@
    opacity: 0;
    transition: .5 opacity ease-in-out;
 }
-
+z
 .produckt__box:hover {
    transform: scale(1.1 , 1.1);
 }
@@ -214,6 +214,15 @@
 }
 
 
+.produckt__link {
+   text-decoration: none;
+   color: #000;
+}
+
+.produckt__link:hover {
+   text-decoration: none;
+   color: #000;
+}
 
 
 
@@ -302,6 +311,18 @@
    .content__product-name {
       margin-top: 50px;
       text-align: center;
+   }
+
+   .produckt__box:hover {
+      transform: scale(1 , 1);
+   }
+
+   .produckt__box {
+      height: 260px;
+      width: 290px;
+      justify-content: center;
+      margin-left: 20px;
+      margin-right: 20px;
    }
 }
 
