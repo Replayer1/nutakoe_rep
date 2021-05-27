@@ -755,3 +755,258 @@ footer h2 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){ 
+   .header-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .nav-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+
+   .header-content {
+      position: relative;
+      width: 100%;
+      height: 230px;
+      background: rgb(0, 0, 0);
+   }
+   
+   .header-content-logo {
+      margin-left: 0px;
+      width: 141px;
+      height: 45px;
+   }
+   
+   .header-logo {
+      width: 100%;
+      height: 100%;
+   }
+   
+   .header-content-nav {
+      width: 100%;
+   }
+   
+   .header-navigation {
+   
+   }
+
+   
+   .nav-items a{
+      text-decoration: none;
+   }
+   
+   .nav-item {
+      color: #fff;
+      list-style-type: none;
+      font-family: 'Roboto', sans-serif;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 42px;
+      line-height: 100%;
+      margin-top: 3px;
+      margin-bottom: 3px;
+   }
+   
+   .header-content-buy {
+      margin-right: 0px;
+      background: rgba(173, 54, 54, 0.64);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 24px;
+   }
+   
+   .header-buy{
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 35px;
+   }
+   
+   .slogan {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 66px;
+      line-height: 112px;
+      color: #FFFFFF;
+   }
+
+   .content-2-text-box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .content-2-text-box p{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+   }
+
+   .content-2-text:last-child {
+      margin-left: 0px;
+   }
+
+   .catalog-row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   
+   .catalog-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+   }
+   
+   .catalog-item-img {
+      width: 281px;
+      height: 281px;
+   }
+   
+   .catalog-item-name {
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 42px;
+      font-style: normal;
+      color: #000000;
+   }
+   
+   .catalog-item-price {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 42px;
+      color: #000000;
+   }
+   
+   .catalog-item-btn {
+      margin-top: 30px;
+      width: 200px;
+      height: 46px;
+      left: 806px;
+      top: 2297px;
+      background: #521D1D;
+      border: none;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 42px;
+      text-decoration: none;
+      color: #000000;
+   }
+   
+   .sort-filter {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+
+   .sort-filter label{
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+
+   .sort-item-row {
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .sort-item-row .sort-item{
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+
+   footer {
+      background: #524848;
+   }
+
+   .wrapper-content-3 {
+      background: #524848;
+   }
+
+   .about-us-img {
+      display: none;
+   }
+
+   .wrapper-content-about-us {
+      display: none;
+   }
+
+   .au-text{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   
+   .comments-row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+   }
+
+   .wrapper-content-comments {
+      background: #524848;
+   }
+
+   .comments-items {
+      flex-direction: column-reverse;
+      margin-bottom: 50px;
+   }
+
+   .warpper-container-sell-today {
+      flex-direction: column;
+   }
+
+   .menu-pizza {
+      flex-direction: column;
+   }
+
+   .menu-pasta {
+      flex-direction: column;
+   }
+
+   .wrapper-content-menu {
+      display: none;
+   }
+}
+
+/* color: #524848; */
